@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5AST-138B" package="FCPBGA676A" speed="1" partNumber="GW5AST-LV138FPG676AES"/>
+    <FileList>
+        <File path="D:/Gowin/Gowin_V1.9.9Beta-5/IDE/ipcore/TSE_MAC/data/eth_mac_top.v" type="verilog"/>
+        <File path="D:/Gowin/Gowin_V1.9.9Beta-5/IDE/ipcore/TSE_MAC/data/eth_mac.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="include_path" value="D:/Gowin/Gowin_V1.9.9Beta-5/IDE/ipcore/TSE_MAC/data"/>
+        <Option type="include_path" value="C:/Users/twd2/Desktop/TANG_MEGA-138K/rgmii_test/rgmii_test/src/triple_speed_ethernet_mac/temp/Triple_Speed_Ethernet_MAC"/>
+        <Option type="output_file" value="triple_speed_ethernet_mac.vg"/>
+        <Option type="output_template" value="triple_speed_ethernet_mac_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>

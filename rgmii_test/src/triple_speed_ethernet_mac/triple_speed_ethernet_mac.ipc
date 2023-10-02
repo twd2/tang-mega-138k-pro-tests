@@ -1,0 +1,15 @@
+[General]
+ipc_version=4
+file=triple_speed_ethernet_mac
+module=Triple_Speed_Ethernet_MAC_Top
+target_device=gw5ast138b-002
+type=tse_mac
+version=1.0
+
+[Config]
+DISABLE_IO_INSERTION=true
+Interface=RGMII
+LANG=0
+MIIM_Clock_Divider=20
+RGMII_Input_Delay=0
+Synthesis_tool=GowinSynthesis
